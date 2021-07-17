@@ -15,6 +15,30 @@
 		7160F2D926A27A6700750F64 /* TodoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7160F2D726A27A6700750F64 /* TodoList.xcdatamodeld */; };
 		7160F2E426A27A6800750F64 /* TodoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F2E326A27A6800750F64 /* TodoListTests.swift */; };
 		7160F2EF26A27A6800750F64 /* TodoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F2EE26A27A6800750F64 /* TodoListUITests.swift */; };
+		7160F30426A27C6000750F64 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F30326A27C6000750F64 /* HomeView.swift */; };
+		7160F30526A27C6000750F64 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F30326A27C6000750F64 /* HomeView.swift */; };
+		7160F30626A27C6000750F64 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F30326A27C6000750F64 /* HomeView.swift */; };
+		7160F31226A2805700750F64 /* DateType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F31126A2805700750F64 /* DateType.swift */; };
+		7160F31326A2805700750F64 /* DateType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F31126A2805700750F64 /* DateType.swift */; };
+		7160F31426A2805700750F64 /* DateType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F31126A2805700750F64 /* DateType.swift */; };
+		7160F31C26A280F100750F64 /* CalendarVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F31B26A280F100750F64 /* CalendarVM.swift */; };
+		7160F31D26A280F100750F64 /* CalendarVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F31B26A280F100750F64 /* CalendarVM.swift */; };
+		7160F31E26A280F100750F64 /* CalendarVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F31B26A280F100750F64 /* CalendarVM.swift */; };
+		7160F32626A28A2D00750F64 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F32526A28A2D00750F64 /* CalenderView.swift */; };
+		7160F32726A28A2D00750F64 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F32526A28A2D00750F64 /* CalenderView.swift */; };
+		7160F32826A28A2D00750F64 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F32526A28A2D00750F64 /* CalenderView.swift */; };
+		7160F32D26A2982100750F64 /* HomeCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F32C26A2982100750F64 /* HomeCalendarView.swift */; };
+		7160F32E26A2982100750F64 /* HomeCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F32C26A2982100750F64 /* HomeCalendarView.swift */; };
+		7160F32F26A2982100750F64 /* HomeCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F32C26A2982100750F64 /* HomeCalendarView.swift */; };
+		7160F33426A29B7600750F64 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F33326A29B7600750F64 /* AddTaskView.swift */; };
+		7160F33526A29B7600750F64 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F33326A29B7600750F64 /* AddTaskView.swift */; };
+		7160F33626A29B7600750F64 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F33326A29B7600750F64 /* AddTaskView.swift */; };
+		7160F33B26A29B8E00750F64 /* AddTaskVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F33A26A29B8E00750F64 /* AddTaskVM.swift */; };
+		7160F33C26A29B8E00750F64 /* AddTaskVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F33A26A29B8E00750F64 /* AddTaskVM.swift */; };
+		7160F33D26A29B8E00750F64 /* AddTaskVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F33A26A29B8E00750F64 /* AddTaskVM.swift */; };
+		7160F34526A2ECCF00750F64 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F34426A2ECCF00750F64 /* HomeVM.swift */; };
+		7160F34626A2ECCF00750F64 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F34426A2ECCF00750F64 /* HomeVM.swift */; };
+		7160F34726A2ECCF00750F64 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F34426A2ECCF00750F64 /* HomeVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +73,14 @@
 		7160F2EA26A27A6800750F64 /* TodoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7160F2EE26A27A6800750F64 /* TodoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListUITests.swift; sourceTree = "<group>"; };
 		7160F2F026A27A6800750F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7160F30326A27C6000750F64 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7160F31126A2805700750F64 /* DateType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateType.swift; sourceTree = "<group>"; };
+		7160F31B26A280F100750F64 /* CalendarVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVM.swift; sourceTree = "<group>"; };
+		7160F32526A28A2D00750F64 /* CalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
+		7160F32C26A2982100750F64 /* HomeCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCalendarView.swift; sourceTree = "<group>"; };
+		7160F33326A29B7600750F64 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		7160F33A26A29B8E00750F64 /* AddTaskVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskVM.swift; sourceTree = "<group>"; };
+		7160F34426A2ECCF00750F64 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +131,8 @@
 		7160F2CB26A27A6100750F64 /* TodoList */ = {
 			isa = PBXGroup;
 			children = (
+				7160F30D26A27FDD00750F64 /* Calendar */,
+				7160F2FF26A27C1C00750F64 /* Home */,
 				7160F2CC26A27A6100750F64 /* TodoListApp.swift */,
 				7160F2CE26A27A6100750F64 /* ContentView.swift */,
 				7160F2D026A27A6700750F64 /* Assets.xcassets */,
@@ -134,6 +168,76 @@
 				7160F2F026A27A6800750F64 /* Info.plist */,
 			);
 			path = TodoListUITests;
+			sourceTree = "<group>";
+		};
+		7160F2FF26A27C1C00750F64 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7160F30226A27C3800750F64 /* Model */,
+				7160F30126A27C3100750F64 /* ViewModel */,
+				7160F30026A27C2800750F64 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7160F30026A27C2800750F64 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7160F30326A27C6000750F64 /* HomeView.swift */,
+				7160F32C26A2982100750F64 /* HomeCalendarView.swift */,
+				7160F33326A29B7600750F64 /* AddTaskView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7160F30126A27C3100750F64 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7160F33A26A29B8E00750F64 /* AddTaskVM.swift */,
+				7160F34426A2ECCF00750F64 /* HomeVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7160F30226A27C3800750F64 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7160F30D26A27FDD00750F64 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				7160F31026A2800300750F64 /* Model */,
+				7160F30F26A27FFC00750F64 /* ViewModel */,
+				7160F30E26A27FF600750F64 /* View */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		7160F30E26A27FF600750F64 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7160F32526A28A2D00750F64 /* CalenderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7160F30F26A27FFC00750F64 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7160F31B26A280F100750F64 /* CalendarVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7160F31026A2800300750F64 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7160F31126A2805700750F64 /* DateType.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +369,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7160F31C26A280F100750F64 /* CalendarVM.swift in Sources */,
+				7160F33426A29B7600750F64 /* AddTaskView.swift in Sources */,
+				7160F33B26A29B8E00750F64 /* AddTaskVM.swift in Sources */,
+				7160F34526A2ECCF00750F64 /* HomeVM.swift in Sources */,
 				7160F2D626A27A6700750F64 /* Persistence.swift in Sources */,
+				7160F31226A2805700750F64 /* DateType.swift in Sources */,
 				7160F2CF26A27A6100750F64 /* ContentView.swift in Sources */,
 				7160F2CD26A27A6100750F64 /* TodoListApp.swift in Sources */,
+				7160F32D26A2982100750F64 /* HomeCalendarView.swift in Sources */,
+				7160F30426A27C6000750F64 /* HomeView.swift in Sources */,
+				7160F32626A28A2D00750F64 /* CalenderView.swift in Sources */,
 				7160F2D926A27A6700750F64 /* TodoList.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +388,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7160F31D26A280F100750F64 /* CalendarVM.swift in Sources */,
+				7160F33C26A29B8E00750F64 /* AddTaskVM.swift in Sources */,
+				7160F33526A29B7600750F64 /* AddTaskView.swift in Sources */,
+				7160F34626A2ECCF00750F64 /* HomeVM.swift in Sources */,
 				7160F2E426A27A6800750F64 /* TodoListTests.swift in Sources */,
+				7160F31326A2805700750F64 /* DateType.swift in Sources */,
+				7160F32726A28A2D00750F64 /* CalenderView.swift in Sources */,
+				7160F30526A27C6000750F64 /* HomeView.swift in Sources */,
+				7160F32E26A2982100750F64 /* HomeCalendarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +404,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7160F31E26A280F100750F64 /* CalendarVM.swift in Sources */,
+				7160F33D26A29B8E00750F64 /* AddTaskVM.swift in Sources */,
+				7160F33626A29B7600750F64 /* AddTaskView.swift in Sources */,
+				7160F34726A2ECCF00750F64 /* HomeVM.swift in Sources */,
 				7160F2EF26A27A6800750F64 /* TodoListUITests.swift in Sources */,
+				7160F31426A2805700750F64 /* DateType.swift in Sources */,
+				7160F32826A28A2D00750F64 /* CalenderView.swift in Sources */,
+				7160F30626A27C6000750F64 /* HomeView.swift in Sources */,
+				7160F32F26A2982100750F64 /* HomeCalendarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
