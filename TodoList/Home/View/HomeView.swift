@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
 
-  @ObservedObject var viewModel = HomeVM()
+  @ObservedObject var viewModel = HomeVM(dataStorage: DataStorageFactory.get())
 
   var body: some View {
     NavigationView{

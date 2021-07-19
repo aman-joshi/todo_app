@@ -10,7 +10,7 @@ import CoreData
 
 struct AddTaskView: View {
 
-  @ObservedObject var viewModel = AddTaskVM()
+  @ObservedObject var viewModel = AddTaskVM(dataStorage: DataStorageFactory.get())
   @ObservedObject var calenderVM = CalendarVM()
   @Environment(\.presentationMode) var present
 
@@ -63,8 +63,10 @@ struct AddTaskView: View {
     }
 
   func saveTask() {
-    viewModel.saveTask { (isSaved) in
-      self.present.wrappedValue.dismiss()
+    viewModel.saveTask(task: viewModel.task, date: viewModel.date) { (isSaved) in
+      if isSaved {
+        self.present.wrappedValue.dismiss()
+      }
     }
   }
   

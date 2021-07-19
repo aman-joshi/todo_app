@@ -39,6 +39,12 @@
 		7160F34526A2ECCF00750F64 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F34426A2ECCF00750F64 /* HomeVM.swift */; };
 		7160F34626A2ECCF00750F64 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F34426A2ECCF00750F64 /* HomeVM.swift */; };
 		7160F34726A2ECCF00750F64 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F34426A2ECCF00750F64 /* HomeVM.swift */; };
+		7160F34D26A3075100750F64 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F34C26A3075000750F64 /* DataStorage.swift */; };
+		7160F34E26A3075100750F64 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F34C26A3075000750F64 /* DataStorage.swift */; };
+		7160F34F26A3075100750F64 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F34C26A3075000750F64 /* DataStorage.swift */; };
+		7160F35726A3DC5600750F64 /* DataStorageFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F35626A3DC5500750F64 /* DataStorageFactory.swift */; };
+		7160F35826A3DC5600750F64 /* DataStorageFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F35626A3DC5500750F64 /* DataStorageFactory.swift */; };
+		7160F35926A3DC5600750F64 /* DataStorageFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160F35626A3DC5500750F64 /* DataStorageFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +87,8 @@
 		7160F33326A29B7600750F64 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 		7160F33A26A29B8E00750F64 /* AddTaskVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskVM.swift; sourceTree = "<group>"; };
 		7160F34426A2ECCF00750F64 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		7160F34C26A3075000750F64 /* DataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
+		7160F35626A3DC5500750F64 /* DataStorageFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorageFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +139,7 @@
 		7160F2CB26A27A6100750F64 /* TodoList */ = {
 			isa = PBXGroup;
 			children = (
+				7160F34B26A3073400750F64 /* Storage */,
 				7160F30D26A27FDD00750F64 /* Calendar */,
 				7160F2FF26A27C1C00750F64 /* Home */,
 				7160F2CC26A27A6100750F64 /* TodoListApp.swift */,
@@ -238,6 +247,15 @@
 				7160F31126A2805700750F64 /* DateType.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		7160F34B26A3073400750F64 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				7160F34C26A3075000750F64 /* DataStorage.swift */,
+				7160F35626A3DC5500750F64 /* DataStorageFactory.swift */,
+			);
+			path = Storage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,6 +389,7 @@
 			files = (
 				7160F31C26A280F100750F64 /* CalendarVM.swift in Sources */,
 				7160F33426A29B7600750F64 /* AddTaskView.swift in Sources */,
+				7160F35726A3DC5600750F64 /* DataStorageFactory.swift in Sources */,
 				7160F33B26A29B8E00750F64 /* AddTaskVM.swift in Sources */,
 				7160F34526A2ECCF00750F64 /* HomeVM.swift in Sources */,
 				7160F2D626A27A6700750F64 /* Persistence.swift in Sources */,
@@ -378,6 +397,7 @@
 				7160F2CF26A27A6100750F64 /* ContentView.swift in Sources */,
 				7160F2CD26A27A6100750F64 /* TodoListApp.swift in Sources */,
 				7160F32D26A2982100750F64 /* HomeCalendarView.swift in Sources */,
+				7160F34D26A3075100750F64 /* DataStorage.swift in Sources */,
 				7160F30426A27C6000750F64 /* HomeView.swift in Sources */,
 				7160F32626A28A2D00750F64 /* CalenderView.swift in Sources */,
 				7160F2D926A27A6700750F64 /* TodoList.xcdatamodeld in Sources */,
@@ -395,8 +415,10 @@
 				7160F2E426A27A6800750F64 /* TodoListTests.swift in Sources */,
 				7160F31326A2805700750F64 /* DateType.swift in Sources */,
 				7160F32726A28A2D00750F64 /* CalenderView.swift in Sources */,
+				7160F34E26A3075100750F64 /* DataStorage.swift in Sources */,
 				7160F30526A27C6000750F64 /* HomeView.swift in Sources */,
 				7160F32E26A2982100750F64 /* HomeCalendarView.swift in Sources */,
+				7160F35826A3DC5600750F64 /* DataStorageFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,8 +433,10 @@
 				7160F2EF26A27A6800750F64 /* TodoListUITests.swift in Sources */,
 				7160F31426A2805700750F64 /* DateType.swift in Sources */,
 				7160F32826A28A2D00750F64 /* CalenderView.swift in Sources */,
+				7160F34F26A3075100750F64 /* DataStorage.swift in Sources */,
 				7160F30626A27C6000750F64 /* HomeView.swift in Sources */,
 				7160F32F26A2982100750F64 /* HomeCalendarView.swift in Sources */,
+				7160F35926A3DC5600750F64 /* DataStorageFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

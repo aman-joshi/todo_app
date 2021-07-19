@@ -9,12 +9,10 @@ import SwiftUI
 
 @main
 struct TodoListApp: App {
-    let persistenceController = PersistenceController.shared
 
     var body: some Scene {
         WindowGroup {
             ContentView()
-                
         }
     }
 }
